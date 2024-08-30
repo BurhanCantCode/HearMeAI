@@ -22,14 +22,30 @@ export default function Home() {
   return (
     <main>
       <ScrollUp />
-      <Hero />
-      <Features />
-      <CallToAction />
-      <Pricing />
-      <Testimonials />
-      <Faq />
-      <Team />
-      <Waitlist />
+      <section id="Hero">
+        <Hero />
+      </section>
+      <section id="Features">
+        <Features />
+      </section>
+      <section id="Pricing">
+        <CallToAction />
+      </section>
+      <section id="Pricing">
+        <Pricing />
+      </section>
+      <section id="Testimonials">
+        <Testimonials />
+      </section>
+      <section id="Faq">
+        <Faq />
+      </section>
+      <section id="Team">
+        <Team />
+      </section>
+      <section id="Waitlist">
+        <Waitlist />
+      </section>
     </main>
   );
 }
