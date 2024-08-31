@@ -60,6 +60,7 @@ export default function RootLayout({
               {children}
               <Footer />
               <ScrollToTop />
+              <Analytics /> {/* Vercel Analytics component */}
             </ThemeProvider>
           </SessionProvider>
         )}
