@@ -31,12 +31,12 @@ const Waitlist = () => {
     <section id="waitlist" className="py-20 md:py-[120px]">
       <div className="container px-4">
         <div className="text-center">
-          <h2 className="mb-6 text-3xl font-bold leading-tight text-dark dark:text-white sm:text-[40px] sm:leading-[1.2]">
-            Join Our Waitlist
-          </h2>
-          <p className="mb-12 text-base leading-relaxed text-body-color dark:text-dark-6">
-            Enter your email to be notified when we launch.
-          </p>
+        <h2 className="mb-6 text-3xl font-bold leading-tight text-dark dark:text-white sm:text-[40px] sm:leading-[1.2]">
+  Join the HearMe AI Waitlist
+</h2>
+<p className="mb-12 text-base leading-relaxed text-body-color dark:text-dark-6">
+  Enter your email to be notified when HearMe AI launches.
+</p>
           <form onSubmit={handleSubmit} className="max-w-[500px] mx-auto">
             <input
               type="email"

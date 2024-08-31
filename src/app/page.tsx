@@ -12,8 +12,8 @@ import { getAllPosts } from "@/utils/markdown";
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "AI-Powered Audio Summarization Tool",
-  description: "Join the waitlist for our AI-powered tool that summarizes any audio.",
+  title: "HearMe AI - AI-Powered Meeting Summarization Tool",
+  description: "Join the waitlist for HearMe AI, the tool that summarizes professional meetings and calls across any platform.",
 };
 
 export default function Home() {
