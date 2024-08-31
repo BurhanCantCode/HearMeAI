@@ -41,7 +41,7 @@ const teamData: TeamType[] = [
     facebookLink: "/#",
     twitterLink: "/#",
     instagramLink: "/#",
-    githubLink: "https://github.com/BurhanCantCode",
+    githubLink: "https://github.com/ghazibaazi",
 
   },
 ];
