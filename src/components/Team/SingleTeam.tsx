@@ -1,5 +1,6 @@
 import { TeamType } from "@/types/team";
 import Image from "next/image";
+import GitHubLogo from "./github.svg"; // Adjust the path if needed
 
 const SingleTeam = ({ team }: { team: TeamType }) => {
   const { image, name, designation, facebookLink, twitterLink, instagramLink, githubLink } = team;
@@ -24,24 +25,10 @@ const SingleTeam = ({ team }: { team: TeamType }) => {
           <h3 className="text-lg font-semibold">{name}</h3>
         </div>
         <div className="mt-4 flex justify-center space-x-3">
-          {facebookLink && (
-            <a href={facebookLink} aria-label="Facebook">
-              <i className="fab fa-facebook-f"></i>
-            </a>
-          )}
-          {twitterLink && (
-            <a href={twitterLink} aria-label="Twitter">
-              <i className="fab fa-twitter"></i>
-            </a>
-          )}
-          {instagramLink && (
-            <a href={instagramLink} aria-label="Instagram">
-              <i className="fab fa-instagram"></i>
-            </a>
-          )}
+        
           {githubLink && (
             <a href={githubLink} aria-label="GitHub">
-              <i className="fab fa-github"></i>
+              <Image src={GitHubLogo} alt="GitHub" width={20} height={20} />
             </a>
           )}
         </div>

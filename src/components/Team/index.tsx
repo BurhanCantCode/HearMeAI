@@ -15,13 +15,13 @@ const teamData: TeamType[] = [
   },
   {
     id: 2,
-    name: "Rida Fatima",
+    name: "Rida E Fatima",
     designation: "Product Designer",
     image: "/images/team/team-02.png",
     facebookLink: "/#",
     twitterLink: "/#",
     instagramLink: "/#",
-    githubLink: "https://github.com/BurhanCantCode",
+    githubLink: "https://github.com/ridaefatima",
   },
   {
     id: 3,
@@ -31,7 +31,7 @@ const teamData: TeamType[] = [
     facebookLink: "/#",
     twitterLink: "/#",
     instagramLink: "/#",
-    githubLink: "https://github.com/BurhanCantCode",
+    githubLink: "https://github.com/shahmeer-irfan",
   },
   {
     id: 4,
@@ -57,7 +57,7 @@ const Team = () => {
           <SectionTitle
             subtitle="Our Team"
             title="Meet Our Team"
-            paragraph="There are many variations of passages of Lorem Ipsum available but the majority have suffered alteration in some form."
+            paragraph="A group of four passionate individuals who brought this app to life, blending creativity, innovation, and dedication."
             width="640px"
             center
           />
