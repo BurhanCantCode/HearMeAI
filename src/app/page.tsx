@@ -31,12 +31,6 @@ export default function Home() {
       <section id="Pricing">
         <CallToAction />
       </section>
-      <section id="Pricing">
-        <Pricing />
-      </section>
-      <section id="Testimonials">
-        <Testimonials />
-      </section>
       <section id="Faq">
         <Faq />
       </section>

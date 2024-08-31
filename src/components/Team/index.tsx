@@ -5,39 +5,44 @@ import SingleTeam from "./SingleTeam";
 const teamData: TeamType[] = [
   {
     id: 1,
-    name: "Adveen Desuza",
+    name: "Burhanuddin Khatri",
     designation: "UI Designer",
     image: "/images/team/team-01.png",
     facebookLink: "/#",
     twitterLink: "/#",
     instagramLink: "/#",
+    githubLink: "https://github.com/BurhanCantCode",
   },
   {
     id: 2,
-    name: "Jezmin uniya",
+    name: "Rida Fatima",
     designation: "Product Designer",
     image: "/images/team/team-02.png",
     facebookLink: "/#",
     twitterLink: "/#",
     instagramLink: "/#",
+    githubLink: "https://github.com/BurhanCantCode",
   },
   {
     id: 3,
-    name: "Andrieo Gloree",
+    name: "Shahmeer Irfan",
     designation: "App Developer",
     image: "/images/team/team-03.png",
     facebookLink: "/#",
     twitterLink: "/#",
     instagramLink: "/#",
+    githubLink: "https://github.com/BurhanCantCode",
   },
   {
     id: 4,
-    name: "Jackie Sanders",
+    name: "Tahir Ghazi",
     designation: "Content Writer",
     image: "/images/team/team-04.png",
     facebookLink: "/#",
     twitterLink: "/#",
     instagramLink: "/#",
+    githubLink: "https://github.com/BurhanCantCode",
+
   },
 ];
 

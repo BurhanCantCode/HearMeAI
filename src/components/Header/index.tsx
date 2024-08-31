@@ -51,8 +51,8 @@ const Header = () => {
               <Image
                 src={
                   sticky || pathUrl !== "/"
-                    ? "/images/logo/logo.svg"
-                    : "/images/logo/logo-white.svg"
+                    ? "/images/favicon.ico"
+                    : "/images/favicon.ico"
                 }
                 alt="logo"
                 width={240}
@@ -60,10 +60,10 @@ const Header = () => {
                 className="header-logo w-full dark:hidden"
               />
               <Image
-                src="/images/logo/logo-white.svg"
+                src="/images/favicon.ico"
                 alt="logo"
                 width={240}
-                height={30}
+                height={15}
                 className="header-logo hidden w-full dark:block"
               />
             </ScrollLink>
@@ -118,8 +118,6 @@ const Header = () => {
                   {[
                     { id: 1, title: "Home", path: "Hero" },
                     { id: 2, title: "About", path: "Features" },
-                    { id: 3, title: "Pricing", path: "Pricing" },
-                    { id: 4, title: "Testimonials", path: "Testimonials" },
                     { id: 5, title: "FAQs", path: "Faq" },
                     { id: 6, title: "Team", path: "Team" },
                   ].map((menuItem) => (
